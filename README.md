@@ -9,11 +9,23 @@ To analyze 50 datasets of reviews written by members of the paid Amazon vine pro
 
 ## Resources
 - Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
-- Software: Google Collab, PySpark, PostgreSQL 4. 
+- Software: Google Collab, PySpark, PostgreSQL 11, PgAdmin 4. 
 
 ## Results 
 I chose to survey a dataset consisting of information about jewelry sales. 
 ![Vine Table DF](https://user-images.githubusercontent.com/71476009/106196631-46b1ec00-6177-11eb-9690-c460cb1e4dde.png)
+
+Created a filtered dataframe where the total votes equaled or were greater than 20. 
+![Total Votes Equal or Greater Than 20](https://user-images.githubusercontent.com/71476009/106198791-19b30880-617a-11eb-8e38-c7841cfc5f3a.png)
+
+Created a filtered dataframe where helpful voted divided by total votes was equal or greater than 50%. 
+![Greater than or equal to 50](https://user-images.githubusercontent.com/71476009/106199030-6f87b080-617a-11eb-9561-9727685e4f53.png)
+
+Created a filtered dataframe with Vine (paid) reviews included. 
+![Vine Reviews](https://user-images.githubusercontent.com/71476009/106199210-bc6b8700-617a-11eb-9c23-8ac067b1e7f1.png)
+
+Created a filtered dataframe with non Vine (unpaid) reviews included. 
+![Screen Shot 2021-01-28 at 3 09 17 PM](https://user-images.githubusercontent.com/71476009/106199269-cf7e5700-617a-11eb-867b-aeae88d0eb25.png)
 
 - There were 7,689 non Vine reviews, and 21 Vine reviews. 
 - There were 11 5-star Vine reviews, and 4444 non Vine 5-star reviews. 
