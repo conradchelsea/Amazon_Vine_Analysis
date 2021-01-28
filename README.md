@@ -15,10 +15,10 @@ To analyze 50 datasets of reviews written by members of the paid Amazon vine pro
 I chose to survey a dataset consisting of information about jewelry sales. 
 ![Vine Table DF](https://user-images.githubusercontent.com/71476009/106196631-46b1ec00-6177-11eb-9690-c460cb1e4dde.png)
 
-Created a filtered dataframe where the total votes equaled or were greater than 20. 
+Created a filtered dataframe where the total votes were equal or were greater than 20. 
 ![Total Votes Equal or Greater Than 20](https://user-images.githubusercontent.com/71476009/106198791-19b30880-617a-11eb-8e38-c7841cfc5f3a.png)
 
-Created a filtered dataframe where helpful voted divided by total votes was equal or greater than 50%. 
+Created a filtered dataframe where helpful votes divided by total votes were equal or greater than 50%. 
 ![Greater than or equal to 50](https://user-images.githubusercontent.com/71476009/106199030-6f87b080-617a-11eb-9561-9727685e4f53.png)
 
 Created a filtered dataframe with Vine (paid) reviews included. 
@@ -34,4 +34,5 @@ Created a filtered dataframe with non Vine (unpaid) reviews included.
 
 
 ## Summary
+There doesn't appear to be a bias from the paid Vine reviews. The percentage of 5-star Vine reviews at 53% is pretty even with non Vine reviews at 57%. The main note is there is a significant difference in the amount of reviews. To get a more accurate reading, I would suggest surveying the 4 and 3-star Vine (paid) ratings. 
 
