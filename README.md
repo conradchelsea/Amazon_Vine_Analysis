@@ -8,7 +8,7 @@ To analyze 50 datasets of reviews written by members of the paid Amazon vine pro
 - Used PySpark to determine bias by creating dataframes to organize and isolate the information. 
 
 ## Resources
-- Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
+- Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt, https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Jewelry_v1_00.tsv.gz
 - Software: Google Collab, PySpark, PostgreSQL 11, PgAdmin 4. 
 
 ## Results 
